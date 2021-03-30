@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2>Start your webcam</h2>
+    <div class="videos">
+      <div>
+        <h3>Local</h3>
+        <video autoplay playsinline id="webcamVideo"></video>
+      </div>
+      <div>
+        <h3>Remote</h3>
+        <video id="remoteVideo" autoplay playsinline></video>
+      </div>
+    </div>
+
+    <button id="webcamButton">Start webcam</button>
+    <h2>Create a new call</h2>
+    <button id="callButton">Call</button>
+
+    <h2>Join a call</h2>
+
+    <input id="callInput" />
+    <button id="answerButton">Answer</button>
+    <h2>Hang Up</h2>
+    <button id="hangupButton">Hang up</button>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

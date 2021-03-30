@@ -1,0 +1,32 @@
+* {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.videos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+input {
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  outline: 0;
+}
+
+button {
+  padding: 16px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fafafa;
+  background-color: #333;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
